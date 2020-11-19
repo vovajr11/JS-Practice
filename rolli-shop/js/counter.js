@@ -16,26 +16,4 @@ window.addEventListener('click', function (event) {
     }
   }
 });
-// const btnPlus = document.querySelector('[data-action="plus"]');
-// console.log(btnPlus);
-// const btnMinus = document.querySelector('[data-action="minus"]');
-// console.log(btnMinus);
 
-// btnPlus.addEventListener('click', function (event) {
-//   // console.log('click P');
-//   const counterWrapper = event.target.closest('.counter-wrapper');
-
-//   const counter = counterWrapper.querySelector('[data-counter]');
-//   //   console.log(counter);
-//   counter.innerText = ++counter.innerText;
-// });
-
-// btnMinus.addEventListener('click', function (event) {
-//   const counterWrapper = event.target.closest('.counter-wrapper');
-
-//   const counter = counterWrapper.querySelector('[data-counter]');
-//   //   console.log(counter);
-//   if (parseInt(counter.innerText) > 1) {
-//     counter.innerText = --counter.innerText;
-//   }
-// });
