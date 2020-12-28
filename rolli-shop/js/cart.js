@@ -56,3 +56,17 @@ window.addEventListener('click', function (event) {
     card.querySelector('[data-counter]').innerText = '1';
   }
 });
+
+function toggleCartStatus() {
+  const cartEmpty = document.querySelector('[data-cart-empty]');
+  const cartTotal = document.querySelector('.cart-total');
+  const orderForm = document.querySelector('#order-form');
+
+  if (cardWrapper.querySelectorAll('.cart-item').length > 0) {
+    cartEmpty.classList.add('none');
+    cartTotal.classList.remove('none');
+    orderForm.classList.remove('none');
+  }
+}
+
+toggleCartStatus();
