@@ -1,0 +1,40 @@
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+
+  .nav-list__item {
+    list-style: none;
+    padding: 2.5rem 0;
+    text-align: center;
+
+    .nav-list__item__link {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: $white;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.ico-nav {
+  color: $color-ico;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+}
+
+.full-screen {
+  background: url(../img/cooking.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.сollapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
