@@ -1,0 +1,45 @@
+@import "header.css" screen;
+@import "about-us.css" screen;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.siema-item {
+  max-width: 400px;
+}
+/* 
+.siema {
+  display: flex;
+  justify-content: center;
+  max-width: 200px;
+}
+
+
+.siema img {
+  width: 100px;
+} */
