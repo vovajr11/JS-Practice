@@ -34,5 +34,3 @@ const productEl = document.querySelector('.accessory__container');
 const productListMarkup = productsList.map(makeProductListMarkup).join('');
 
 productEl.innerHTML += productListMarkup;
-
-

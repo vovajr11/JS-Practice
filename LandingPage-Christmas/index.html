@@ -63,10 +63,23 @@
               In these end of the year holidays send a gift to your loved one
               and share the happiness at Christmas.
             </p>
-            <a href="#" class="button">Get Started</a>
+            <a class="button" data-action="open-modal">Get Started</a>
           </div>
         </div>
       </section>
+
+      <div class="backdrop js-backdrop">
+        <div class="modal">
+          <h2 class="modal__title">
+            Hi 👋 I am a modal window. ✨<br />
+            Merry Christmas 🎄
+          </h2>
+
+          <button type="button" class="button button--modal" data-action="close-modal">
+            Закрыть
+          </button>
+        </div>
+      </div>
 
       <!--========== SHARE ==========-->
       <section class="share section bd-container" id="share">
@@ -219,5 +232,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./app/js/main.js"></script>
     <script src="./app/js/generate-product-list.js" type="module"></script>
+    <script src="./app/js/modal.js" type="module"></script>
   </body>
 </html>

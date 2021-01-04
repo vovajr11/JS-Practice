@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import 'modal.css' screen;
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -312,6 +313,13 @@ img {
 .button-link:hover {
   background-color: transparent;
   color: var(--first-color-alt);
+}
+
+.button--modal {
+  margin-top: 100px;
+  border: none;
+  color: #161212;
+  background-color: white;
 }
 
 /*========== SHARE ==========*/
